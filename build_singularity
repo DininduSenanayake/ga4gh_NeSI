@@ -1,0 +1,2 @@
+#!/bin/bash
+singularity build ga4gh_nesi.img docker-daemon:ga4gh_nesi:latest
