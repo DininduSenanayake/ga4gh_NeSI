@@ -1,3 +1,0 @@
-#!/bin/bash
-mkdir -p temp
-singularity run --writable-tmpfs --no-home -B ${PWD}/temp:/var/run/apache2/,${REGISTRY_PATH}:/registry  ga4gh_nesi.img $@
