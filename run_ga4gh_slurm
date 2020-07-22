@@ -35,5 +35,5 @@ Listen $GA4GH_PORT
 
 EOF
 
-singularity run --writable-tmpfs --no-home -B ${GA4GH_TEMP}:/var/run/apache2/,${REGISTRY_PATH}:/registry,${PWD}/myports.conf:/etc/apache2/ports.conf ga4gh_nesi.img  $@
+singularity run --writable-tmpfs -B ${GA4GH_TEMP}:/var/run/apache2/,${REGISTRY_PATH}:/registry,${PWD}/myports.conf:/etc/apache2/ports.conf ga4gh_nesi.img  $@
 
