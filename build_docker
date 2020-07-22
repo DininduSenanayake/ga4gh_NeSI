@@ -1,0 +1,4 @@
+#!/bin/bash
+docker build --no-cache -t nesiga4gh .
+# docker tag dashboard ewas:latest
+# docker push ewas:latest

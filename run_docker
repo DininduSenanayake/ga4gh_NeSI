@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run -p 8083:8083 --mount type=bind,source=$REGISTRY_PATH,target=/registry nesiga4gh $@
