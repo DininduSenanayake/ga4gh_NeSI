@@ -1,5 +1,5 @@
 FROM php:7.4-apache
-RUN apt-get update && apt-get install -y python-pip python-dev python-virtualenv zlib1g-dev libxslt1-dev libffi-dev libssl-dev libapache2-mod-wsgi wget
+RUN apt-get update && apt-get install -y python-pip python-dev python-virtualenv zlib1g-dev libxslt1-dev libffi-dev libssl-dev libapache2-mod-wsgi wget jq
 RUN a2enmod wsgi
 RUN mkdir /var/cache/apache2/python-egg-cache
 RUN chown www-data:www-data /var/cache/apache2/python-egg-cache/
