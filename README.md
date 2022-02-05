@@ -1,3 +1,5 @@
+>**Deprecation notice**- ga4gh-server is deprecated. PLease refer https://github.com/ga4gh/htsget-refserver 
+
 # ga4gh_NeSI
 
 - To build docker & singularity, use `./build`
