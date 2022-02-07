@@ -1,4 +1,4 @@
->**Deprecation notice**- ga4gh-server is deprecated. PLease refer https://github.com/ga4gh/htsget-refserver which is the new implementation
+>**Deprecation notice**- ga4gh-server is deprecated. Please refer https://github.com/ga4gh/htsget-refserver which is the new implementation
 
 # ga4gh_NeSI
 
