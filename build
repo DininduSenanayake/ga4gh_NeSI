@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#build docker image
+#build docker image and singularity image
 
 ./build_docker && ./build_singularity
 
