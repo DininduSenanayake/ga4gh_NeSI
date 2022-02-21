@@ -13,5 +13,5 @@ COPY config/config.py /srv/ga4gh/
 COPY config/apache.conf /etc/apache2/sites-enabled/000-default.conf
 COPY config/ports.conf /etc/apache2/ports.conf
 
-#export port IDs accordingly.If it is Mahuika, we recommend
+#export port IDs accordingly.If it is Mahuika, we recommend using a port above 10,000
 EXPOSE 8083
