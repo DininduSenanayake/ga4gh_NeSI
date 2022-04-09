@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#build recipe 
+#build recipe image : 
 #build docker image and singularity image
 
 ./build_docker && ./build_singularity
