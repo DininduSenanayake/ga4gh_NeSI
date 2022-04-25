@@ -3,3 +3,4 @@ docker build --no-cache -t ga4gh_nesi .
 
 # docker tag dashboard ga4gh_nesi:latest
 # docker push ga4gh_nesi:latest
+# comment check for git Online editor
